@@ -14,3 +14,5 @@ router.get('/', function(req, res, next) {
 router.get('/favicon.ico', (req, res) => res.status(204));
 
 module.exports = router;
+
+console.log("Some example message");
